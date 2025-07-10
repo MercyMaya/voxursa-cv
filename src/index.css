@@ -1,0 +1,9 @@
+/* This is where we import Tailwind’s layers. */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* This is where we can drop any global styles – keep minimal for performance. */
+html {
+  scroll-behavior: smooth;
+}
