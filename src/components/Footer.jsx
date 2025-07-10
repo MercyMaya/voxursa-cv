@@ -15,13 +15,18 @@ export default function Footer() {
           <a
             href="https://github.com/MercyMaya"
             target="_blank"
-            rel="noopener"
+            rel="noopener noreferrer"
             className="hover:underline"
           >
             GitHub ▸ MercyMaya
           </a>
           {' · '}
-          <a href="https://voxursa.com" target="_blank" rel="noopener" className="hover:underline">
+          <a
+            href="https://voxursa.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:underline"
+          >
             Voice‑Over Site
           </a>
         </p>

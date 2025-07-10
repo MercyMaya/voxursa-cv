@@ -24,7 +24,7 @@ export default function Projects() {
                   href={p.code}
                   className="text-accent hover:underline"
                   target="_blank"
-                  rel="noopener"
+                  rel="noopener noreferrer"
                 >
                   View Code
                 </a>
@@ -33,7 +33,7 @@ export default function Projects() {
                     href={p.demo}
                     className="text-accent hover:underline"
                     target="_blank"
-                    rel="noopener"
+                    rel="noopener noreferrer"
                   >
                     Live Demo
                   </a>
