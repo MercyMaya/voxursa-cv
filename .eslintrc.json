@@ -1,0 +1,15 @@
+{
+  "extends": ["plugin:react/recommended", "prettier"],
+  "plugins": ["react"],
+  "settings": { "react": { "version": "detect" } },
+  "env": { "browser": true, "es2021": true },
+  "parserOptions": { "ecmaFeatures": { "jsx": true }, "sourceType": "module" },
+  "rules": {
+    "react/prop-types": "off",
+    "react/react-in-jsx-scope": "off",
+    "react/jsx-no-target-blank": [
+      "error",
+      { "allowReferrer": true, "enforceDynamicLinks": "always" }
+    ]
+  }
+}

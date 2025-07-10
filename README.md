@@ -21,9 +21,9 @@ Upload the **contents** of `dist/` to `voxursa.com/cv/` via FTP.
 
 ## Notes
 
-* Tailwind CSS purges unused styles on build, keeping CSS tiny.
-* Dark‑mode toggle saves preference in `localStorage`.
-* All major sections live in `src/components/`.
-* Projects are defined in `src/data/projects.js` – add new items & rebuild.
+- Tailwind CSS purges unused styles on build, keeping CSS tiny.
+- Dark‑mode toggle saves preference in `localStorage`.
+- All major sections live in `src/components/`.
+- Projects are defined in `src/data/projects.js` – add new items & rebuild.
 
 Happy coding!

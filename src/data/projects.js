@@ -11,17 +11,24 @@ export default [
     demo: 'https://play.google.com/store/apps/details?id=com.mercymayagames.taskr'
   },
   {
-    name: 'Unity Mobile Games (4 titles)',
+    name: 'Voxursa Book Tracker',
     description:
-      'Designed, coded, and shipped four Unity mobile games – flagship hit 100k+ installs and 4.5★ rating. Handled art, programming, and marketing.',
-    code: 'https://github.com/MercyMaya', // placeholder – point to relevant repo
-    demo: null
+      'Full-stack reading tracker built with vanilla JS, PHP, and MySQL. Google Books integration, masonry UI, and responsive modals.',
+    code: 'https://github.com/MercyMaya/booktracker',
+    demo: 'https://voxursa.com/booktracker/dashboard.html'
   },
   {
     name: 'Halon Website Performance Overhaul',
     description:
       'Optimized 1,000+ images and implemented lazy‑loading, slashing first paint by 50% and boosting Lighthouse score from 34 to 98.',
-    code: 'https://github.com/MercyMaya', // maybe a gist or write‑up
+    code: 'https://halon.com', // maybe a gist or write‑up
     demo: null
+  },
+  {
+    name: 'Portfolio Site (voxursa-cv)',
+    description:
+      'You’re looking at it! A blazing-fast React + Tailwind single-page portfolio, engineered for 100/100 Lighthouse scores.',
+    code: 'https://github.com/MercyMaya/voxursa-cv',
+    demo: 'https://voxursa.com/cv/'
   }
 ]

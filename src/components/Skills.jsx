@@ -23,9 +23,7 @@ export default function Skills() {
             className="bg-white/70 dark:bg-gray-900/60 backdrop-blur rounded p-4 text-center shadow"
           >
             <span className="block text-xl font-semibold">{s.name}</span>
-            <span className="text-xs uppercase tracking-wide text-gray-500">
-              {s.cat}
-            </span>
+            <span className="text-xs uppercase tracking-wide text-gray-500">{s.cat}</span>
           </div>
         ))}
       </div>

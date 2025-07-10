@@ -3,14 +3,18 @@
  */
 export default function Hero() {
   return (
-    <section id="hero" className="min-h-screen flex flex-col items-center justify-center text-center px-4">
+    <section
+      id="hero"
+      className="min-h-screen flex flex-col items-center justify-center text-center px-4"
+    >
       {/* Big bold intro */}
       <h1 className="text-4xl md:text-6xl font-extrabold leading-tight">
         Full‑Stack Developer &amp; Game Designer
       </h1>
-      <p className="mt-6 max-w-2xl text-lg md:text-xl">
-        Turning bold ideas into polished code &amp; immersive games.<br />
-        <span className="text-accent">Let’s build something extraordinary.</span>
+      {/* This quick blurb reminds visitors the portfolio is itself a tech demo */}
+      <p className="mt-4 text-sm text-gray-600 dark:text-gray-400">
+        (You’re browsing a live portfolio built with <strong>React</strong> +
+        <strong> Tailwind CSS</strong> — part of the showcase!)
       </p>
 
       {/* Call‑to‑actions */}

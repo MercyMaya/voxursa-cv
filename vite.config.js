@@ -7,10 +7,11 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 export default defineConfig({
+  base: '/cv/',
   plugins: [react()],
   // Output to /dist ready for FTP upload
   build: {
     outDir: 'dist',
-    emptyOutDir: true,
+    emptyOutDir: true
   }
 })
